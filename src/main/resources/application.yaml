@@ -1,3 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/simple_sns?rewriteBatchedStatements=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 20
+  jpa:
+    hibernate.ddl-auto: create
+    properties.hibernate.format_sql: true
+    show-sql: true
 
 jwt:
   secret-key: fast-campus.simple_sns_2022_secret_key

@@ -1,6 +1,6 @@
 package com.fastcampus.sns.service;
 
-import com.fastcampus.sns.JwtTokenUtils;
+import com.fastcampus.sns.util.JwtTokenUtils;
 import com.fastcampus.sns.exception.ErrorCode;
 import com.fastcampus.sns.exception.SimpleSnsApplicationException;
 import com.fastcampus.sns.model.User;

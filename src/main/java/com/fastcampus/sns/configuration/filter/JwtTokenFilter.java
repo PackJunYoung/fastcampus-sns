@@ -1,6 +1,6 @@
 package com.fastcampus.sns.configuration.filter;
 
-import com.fastcampus.sns.JwtTokenUtils;
+import com.fastcampus.sns.util.JwtTokenUtils;
 import com.fastcampus.sns.model.User;
 import com.fastcampus.sns.service.UserService;
 import lombok.RequiredArgsConstructor;
